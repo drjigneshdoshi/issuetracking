@@ -1,0 +1,1358 @@
+[24-Oct-2016 16:29:22 asia/kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'db_misc'' in C:\wamp64\www\Library\Functions\Database.php:12
+Stack trace:
+#0 C:\wamp64\www\Library\Functions\Database.php(12): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\wamp64\www\Library\Functions\Database.php(35): GetDatabaseConnection('db_misc')
+#2 C:\wamp64\www\Library\create-case.php(190): Connection('db_misc')
+#3 C:\wamp64\www\Library\index.php(56): require_once('C:\\wamp64\\www\\L...')
+#4 {main}
+  thrown in C:\wamp64\www\Library\Functions\Database.php on line 12
+[24-Oct-2016 21:06:50 asia/kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Library\leftpanel.php:86) in C:\wamp64\www\Library\index.php on line 57
+[24-Oct-2016 21:06:50 asia/kolkata] PHP Stack trace:
+[24-Oct-2016 21:06:50 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[24-Oct-2016 21:06:50 asia/kolkata] PHP   2. header() C:\wamp64\www\Library\index.php:57
+[24-Oct-2016 22:38:44 asia/kolkata] PHP Fatal error:  Call to undefined function AddNotifyToAccountCharacters() in C:\wamp64\www\Library\answer-case.php on line 48
+[24-Oct-2016 22:38:44 asia/kolkata] PHP Stack trace:
+[24-Oct-2016 22:38:44 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[24-Oct-2016 22:38:44 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[24-Oct-2016 22:38:48 asia/kolkata] PHP Fatal error:  Call to undefined function AddNotifyToAccountCharacters() in C:\wamp64\www\Library\answer-case.php on line 48
+[24-Oct-2016 22:38:48 asia/kolkata] PHP Stack trace:
+[24-Oct-2016 22:38:48 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[24-Oct-2016 22:38:48 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[24-Oct-2016 22:54:37 asia/kolkata] PHP Fatal error:  Call to undefined function IsFaculty() in C:\wamp64\www\Library\leftpanel.php on line 20
+[24-Oct-2016 22:54:37 asia/kolkata] PHP Stack trace:
+[24-Oct-2016 22:54:37 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[24-Oct-2016 22:54:37 asia/kolkata] PHP   2. include() C:\wamp64\www\Library\index.php:49
+[24-Oct-2016 22:54:47 asia/kolkata] PHP Fatal error:  Call to undefined function IsFaculty() in C:\wamp64\www\Library\leftpanel.php on line 20
+[24-Oct-2016 22:54:47 asia/kolkata] PHP Stack trace:
+[24-Oct-2016 22:54:47 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[24-Oct-2016 22:54:47 asia/kolkata] PHP   2. include() C:\wamp64\www\Library\index.php:49
+[24-Oct-2016 22:54:50 asia/kolkata] PHP Fatal error:  Call to undefined function IsFaculty() in C:\wamp64\www\Library\leftpanel.php on line 20
+[24-Oct-2016 22:54:50 asia/kolkata] PHP Stack trace:
+[24-Oct-2016 22:54:50 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[24-Oct-2016 22:54:50 asia/kolkata] PHP   2. include() C:\wamp64\www\Library\index.php:49
+[24-Oct-2016 22:54:54 asia/kolkata] PHP Fatal error:  Call to undefined function IsFaculty() in C:\wamp64\www\Library\leftpanel.php on line 20
+[24-Oct-2016 22:54:54 asia/kolkata] PHP Stack trace:
+[24-Oct-2016 22:54:54 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[24-Oct-2016 22:54:54 asia/kolkata] PHP   2. include() C:\wamp64\www\Library\index.php:49
+[24-Oct-2016 22:54:58 asia/kolkata] PHP Fatal error:  Call to undefined function IsFaculty() in C:\wamp64\www\Library\leftpanel.php on line 20
+[24-Oct-2016 22:54:58 asia/kolkata] PHP Stack trace:
+[24-Oct-2016 22:54:58 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[24-Oct-2016 22:54:58 asia/kolkata] PHP   2. include() C:\wamp64\www\Library\index.php:49
+[24-Oct-2016 23:23:11 asia/kolkata] PHP Fatal error:  Call to undefined function AddNotifyToAccountCharacters() in C:\wamp64\www\Library\view-case.php on line 85
+[24-Oct-2016 23:23:11 asia/kolkata] PHP Stack trace:
+[24-Oct-2016 23:23:11 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[24-Oct-2016 23:23:11 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[24-Oct-2016 23:26:56 asia/kolkata] PHP Fatal error:  Call to undefined function AddNotifyToAccountCharacters() in C:\wamp64\www\Library\view-case.php on line 85
+[24-Oct-2016 23:26:56 asia/kolkata] PHP Stack trace:
+[24-Oct-2016 23:26:56 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[24-Oct-2016 23:26:56 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[25-Oct-2016 00:16:54 asia/kolkata] PHP Notice:  Undefined index: answerBy in C:\wamp64\www\Library\Functions\Cases.php on line 70
+[25-Oct-2016 00:16:54 asia/kolkata] PHP Stack trace:
+[25-Oct-2016 00:16:54 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[25-Oct-2016 00:16:54 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[25-Oct-2016 00:16:54 asia/kolkata] PHP   3. GetCaseLastAnswerBy() C:\wamp64\www\Library\latest-cases.php:35
+[25-Oct-2016 00:16:54 asia/kolkata] PHP Notice:  Undefined index: answerBy in C:\wamp64\www\Library\Functions\Cases.php on line 70
+[25-Oct-2016 00:16:54 asia/kolkata] PHP Stack trace:
+[25-Oct-2016 00:16:54 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[25-Oct-2016 00:16:54 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[25-Oct-2016 00:16:54 asia/kolkata] PHP   3. GetCaseLastAnswerBy() C:\wamp64\www\Library\latest-cases.php:35
+[25-Oct-2016 00:16:54 asia/kolkata] PHP Notice:  Undefined index: answerBy in C:\wamp64\www\Library\Functions\Cases.php on line 70
+[25-Oct-2016 00:16:54 asia/kolkata] PHP Stack trace:
+[25-Oct-2016 00:16:54 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[25-Oct-2016 00:16:54 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[25-Oct-2016 00:16:54 asia/kolkata] PHP   3. GetCaseLastAnswerBy() C:\wamp64\www\Library\latest-cases.php:35
+[25-Oct-2016 00:17:12 asia/kolkata] PHP Notice:  Undefined index: answerBy in C:\wamp64\www\Library\Functions\Cases.php on line 71
+[25-Oct-2016 00:17:12 asia/kolkata] PHP Stack trace:
+[25-Oct-2016 00:17:12 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[25-Oct-2016 00:17:12 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[25-Oct-2016 00:17:12 asia/kolkata] PHP   3. GetCaseLastAnswerBy() C:\wamp64\www\Library\latest-cases.php:35
+[25-Oct-2016 00:17:12 asia/kolkata] PHP Notice:  Undefined index: answerBy in C:\wamp64\www\Library\Functions\Cases.php on line 71
+[25-Oct-2016 00:17:12 asia/kolkata] PHP Stack trace:
+[25-Oct-2016 00:17:12 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[25-Oct-2016 00:17:12 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[25-Oct-2016 00:17:12 asia/kolkata] PHP   3. GetCaseLastAnswerBy() C:\wamp64\www\Library\latest-cases.php:35
+[25-Oct-2016 00:17:12 asia/kolkata] PHP Notice:  Undefined index: answerBy in C:\wamp64\www\Library\Functions\Cases.php on line 71
+[25-Oct-2016 00:17:12 asia/kolkata] PHP Stack trace:
+[25-Oct-2016 00:17:12 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[25-Oct-2016 00:17:12 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[25-Oct-2016 00:17:12 asia/kolkata] PHP   3. GetCaseLastAnswerBy() C:\wamp64\www\Library\latest-cases.php:35
+[25-Oct-2016 00:17:14 asia/kolkata] PHP Notice:  Undefined index: answerBy in C:\wamp64\www\Library\Functions\Cases.php on line 71
+[25-Oct-2016 00:17:14 asia/kolkata] PHP Stack trace:
+[25-Oct-2016 00:17:14 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[25-Oct-2016 00:17:14 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[25-Oct-2016 00:17:14 asia/kolkata] PHP   3. GetCaseLastAnswerBy() C:\wamp64\www\Library\latest-cases.php:35
+[25-Oct-2016 00:17:14 asia/kolkata] PHP Notice:  Undefined index: answerBy in C:\wamp64\www\Library\Functions\Cases.php on line 71
+[25-Oct-2016 00:17:14 asia/kolkata] PHP Stack trace:
+[25-Oct-2016 00:17:14 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[25-Oct-2016 00:17:14 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[25-Oct-2016 00:17:14 asia/kolkata] PHP   3. GetCaseLastAnswerBy() C:\wamp64\www\Library\latest-cases.php:35
+[25-Oct-2016 00:17:14 asia/kolkata] PHP Notice:  Undefined index: answerBy in C:\wamp64\www\Library\Functions\Cases.php on line 71
+[25-Oct-2016 00:17:14 asia/kolkata] PHP Stack trace:
+[25-Oct-2016 00:17:14 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[25-Oct-2016 00:17:14 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[25-Oct-2016 00:17:14 asia/kolkata] PHP   3. GetCaseLastAnswerBy() C:\wamp64\www\Library\latest-cases.php:35
+[25-Oct-2016 00:17:31 asia/kolkata] PHP Notice:  Undefined index: answerBy in C:\wamp64\www\Library\Functions\Cases.php on line 71
+[25-Oct-2016 00:17:31 asia/kolkata] PHP Stack trace:
+[25-Oct-2016 00:17:31 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[25-Oct-2016 00:17:31 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[25-Oct-2016 00:17:31 asia/kolkata] PHP   3. GetCaseLastAnswerBy() C:\wamp64\www\Library\latest-cases.php:35
+[25-Oct-2016 00:17:31 asia/kolkata] PHP Notice:  Undefined index: answerBy in C:\wamp64\www\Library\Functions\Cases.php on line 71
+[25-Oct-2016 00:17:31 asia/kolkata] PHP Stack trace:
+[25-Oct-2016 00:17:31 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[25-Oct-2016 00:17:31 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[25-Oct-2016 00:17:31 asia/kolkata] PHP   3. GetCaseLastAnswerBy() C:\wamp64\www\Library\latest-cases.php:35
+[25-Oct-2016 00:17:31 asia/kolkata] PHP Notice:  Undefined index: answerBy in C:\wamp64\www\Library\Functions\Cases.php on line 71
+[25-Oct-2016 00:17:31 asia/kolkata] PHP Stack trace:
+[25-Oct-2016 00:17:31 asia/kolkata] PHP   1. {main}() C:\wamp64\www\Library\index.php:0
+[25-Oct-2016 00:17:31 asia/kolkata] PHP   2. require_once() C:\wamp64\www\Library\index.php:60
+[25-Oct-2016 00:17:31 asia/kolkata] PHP   3. GetCaseLastAnswerBy() C:\wamp64\www\Library\latest-cases.php:35
+[25-Oct-2016 00:36:48 asia/kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'library'' in C:\wamp64\www\Library\Functions\Database.php:12
+Stack trace:
+#0 C:\wamp64\www\Library\Functions\Database.php(12): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\wamp64\www\Library\manageMember.php(60): GetDatabaseConnection('library')
+#2 C:\wamp64\www\Library\index.php(60): require_once('C:\\wamp64\\www\\L...')
+#3 {main}
+  thrown in C:\wamp64\www\Library\Functions\Database.php on line 12
+[21-Jan-2017 17:02:05 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in C:\wamp\www\Case Manager\Functions\Database.php:23
+Stack trace:
+#0 C:\wamp\www\Case Manager\Functions\Import.php(17): HasRequiredDatabaseConnections()
+#1 C:\wamp\www\Case Manager\index.php(3): require_once('C:\\wamp\\www\\Cas...')
+#2 {main}
+  thrown in C:\wamp\www\Case Manager\Functions\Database.php on line 23
+[21-Jan-2017 17:11:32 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:11:32 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:147
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[21-Jan-2017 17:11:32 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[21-Jan-2017 17:11:32 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:147
+[21-Jan-2017 17:11:32 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:11:32 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[21-Jan-2017 17:11:32 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[21-Jan-2017 17:11:32 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[21-Jan-2017 17:11:32 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:11:32 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   3. GetCaseAnswers() C:\wamp\www\CaseManager\view-case.php:9
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:134
+[21-Jan-2017 17:11:32 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:11:32 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   3. GetCaseAttachments() C:\wamp\www\CaseManager\view-case.php:49
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:125
+[21-Jan-2017 17:11:32 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:11:32 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:11:32 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\view-case.php:90
+[21-Jan-2017 17:15:39 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:15:39 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:147
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[21-Jan-2017 17:15:39 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[21-Jan-2017 17:15:39 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:147
+[21-Jan-2017 17:15:39 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:15:39 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[21-Jan-2017 17:15:39 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[21-Jan-2017 17:15:39 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[21-Jan-2017 17:15:39 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:15:39 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   3. GetCaseAnswers() C:\wamp\www\CaseManager\view-case.php:9
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:134
+[21-Jan-2017 17:15:39 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:15:39 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   3. GetCaseAttachments() C:\wamp\www\CaseManager\view-case.php:49
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:125
+[21-Jan-2017 17:15:39 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:15:39 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:15:39 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\view-case.php:90
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:147
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:147
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   3. GetCaseAnswers() C:\wamp\www\CaseManager\view-case.php:9
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:134
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   3. GetCaseAttachments() C:\wamp\www\CaseManager\view-case.php:49
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:125
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Warning:  Missing argument 1 for CaseID(), called in C:\wamp\www\CaseManager\view-case.php on line 90 and defined in C:\wamp\www\CaseManager\Functions\Cases.php on line 111
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\view-case.php:90
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Notice:  Undefined variable: id in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\view-case.php:90
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:33 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:33 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\view-case.php:90
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:147
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:147
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   3. GetCaseAnswers() C:\wamp\www\CaseManager\view-case.php:9
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:134
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   3. GetCaseAttachments() C:\wamp\www\CaseManager\view-case.php:49
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:125
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Warning:  Missing argument 1 for CaseID(), called in C:\wamp\www\CaseManager\view-case.php on line 90 and defined in C:\wamp\www\CaseManager\Functions\Cases.php on line 111
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\view-case.php:90
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Notice:  Undefined variable: id in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\view-case.php:90
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:35 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:35 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\view-case.php:90
+[21-Jan-2017 17:17:38 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:38 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:147
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[21-Jan-2017 17:17:38 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[21-Jan-2017 17:17:38 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:147
+[21-Jan-2017 17:17:38 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:38 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[21-Jan-2017 17:17:38 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[21-Jan-2017 17:17:38 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[21-Jan-2017 17:17:38 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:38 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   3. GetCaseAnswers() C:\wamp\www\CaseManager\view-case.php:9
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:134
+[21-Jan-2017 17:17:38 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:38 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   3. GetCaseAttachments() C:\wamp\www\CaseManager\view-case.php:49
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:125
+[21-Jan-2017 17:17:38 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:17:38 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:17:38 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\view-case.php:90
+[21-Jan-2017 17:19:52 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:19:52 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:147
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[21-Jan-2017 17:19:52 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[21-Jan-2017 17:19:52 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:147
+[21-Jan-2017 17:19:52 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:19:52 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[21-Jan-2017 17:19:52 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[21-Jan-2017 17:19:52 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[21-Jan-2017 17:19:52 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:19:52 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   3. GetCaseAnswers() C:\wamp\www\CaseManager\view-case.php:9
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:134
+[21-Jan-2017 17:19:52 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:19:52 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   3. GetCaseAttachments() C:\wamp\www\CaseManager\view-case.php:49
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:125
+[21-Jan-2017 17:19:52 asia/kolkata] PHP Warning:  Missing argument 1 for IsSelfLatestAnswer(), called in C:\wamp\www\CaseManager\view-case.php on line 90 and defined in C:\wamp\www\CaseManager\Functions\Cases.php on line 83
+[21-Jan-2017 17:19:52 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:19:52 asia/kolkata] PHP   3. IsSelfLatestAnswer() C:\wamp\www\CaseManager\view-case.php:90
+[21-Jan-2017 17:20:14 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:20:14 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:147
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[21-Jan-2017 17:20:14 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[21-Jan-2017 17:20:14 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:147
+[21-Jan-2017 17:20:14 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:20:14 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[21-Jan-2017 17:20:14 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[21-Jan-2017 17:20:14 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[21-Jan-2017 17:20:14 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:20:14 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   3. GetCaseAnswers() C:\wamp\www\CaseManager\view-case.php:9
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:134
+[21-Jan-2017 17:20:14 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:20:14 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   3. GetCaseAttachments() C:\wamp\www\CaseManager\view-case.php:49
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:125
+[21-Jan-2017 17:20:14 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[21-Jan-2017 17:20:14 asia/kolkata] PHP Stack trace:
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[21-Jan-2017 17:20:14 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\view-case.php:90
+[22-Jan-2017 11:37:09 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function getStaff() in C:\wamp\www\CaseManager\test.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\CaseManager\test.php on line 9
+[22-Jan-2017 11:51:58 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 11:51:58 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 11:51:58 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 11:51:58 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[22-Jan-2017 11:51:58 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 11:51:58 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 11:51:58 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[22-Jan-2017 11:51:58 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 11:51:58 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 11:51:58 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[22-Jan-2017 11:51:58 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 11:51:58 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 11:51:58 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 11:51:58 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 11:51:58 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:61
+[22-Jan-2017 11:51:58 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\answer-case.php:15
+[22-Jan-2017 12:23:15 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 12:23:15 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 12:23:15 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 12:23:15 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 12:23:15 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 12:23:15 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 12:23:15 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[22-Jan-2017 12:23:15 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 12:23:15 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 12:23:15 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 12:23:15 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 12:23:15 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 12:23:15 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 12:23:15 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 12:23:15 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 12:23:15 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\answer-case.php:15
+[22-Jan-2017 12:23:28 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 12:23:28 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 12:23:28 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 12:23:28 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 12:23:28 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 12:23:28 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 12:23:28 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[22-Jan-2017 12:23:28 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 12:23:28 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 12:23:28 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 12:23:28 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 12:23:28 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 12:23:28 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 12:23:28 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 12:23:28 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 12:23:28 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\answer-case.php:15
+[22-Jan-2017 12:40:50 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 12:40:50 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 12:40:50 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 12:40:50 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 12:40:50 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 12:40:50 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 12:40:50 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[22-Jan-2017 12:40:50 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 12:40:50 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 12:40:50 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 12:40:50 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 12:40:50 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 12:40:50 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 12:40:50 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 12:40:50 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 12:40:50 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\answer-case.php:15
+[22-Jan-2017 12:58:21 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 12:58:21 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 12:58:21 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 12:58:21 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 12:58:21 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 12:58:21 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 12:58:21 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[22-Jan-2017 12:58:21 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 12:58:21 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 12:58:21 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 12:58:21 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 12:58:21 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 12:58:21 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 12:58:21 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 12:58:21 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 12:58:21 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\answer-case.php:15
+[22-Jan-2017 13:24:32 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 13:24:32 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 13:24:32 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 13:24:32 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 13:24:32 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 13:24:32 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 13:24:32 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[22-Jan-2017 13:24:32 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 13:24:32 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 13:24:32 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 13:24:32 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 13:24:32 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 13:24:32 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 13:24:32 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 13:24:32 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 13:24:32 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\answer-case.php:15
+[22-Jan-2017 13:30:23 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 13:30:23 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 13:30:23 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 13:30:23 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 13:30:23 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 13:30:23 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 13:30:23 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[22-Jan-2017 13:30:23 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 13:30:23 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 13:30:23 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 13:30:23 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 13:30:23 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 13:30:23 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 13:30:23 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 13:30:23 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 13:30:23 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\answer-case.php:15
+[22-Jan-2017 13:31:12 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 13:31:12 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 13:31:12 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 13:31:12 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 13:31:12 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 13:31:12 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 13:31:12 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[22-Jan-2017 13:31:12 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 13:31:12 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 13:31:12 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 13:31:12 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 13:31:12 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 13:31:12 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 13:31:12 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 13:31:12 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 13:31:12 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\answer-case.php:15
+[22-Jan-2017 13:32:08 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 13:32:08 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 13:32:08 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 13:32:08 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 13:32:08 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 13:32:08 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 13:32:08 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[22-Jan-2017 13:32:08 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 13:32:08 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 13:32:08 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 13:32:08 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\answer-case.php:4
+[22-Jan-2017 13:32:08 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 13:32:08 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 13:32:08 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 13:32:08 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 13:32:08 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\answer-case.php:15
+[22-Jan-2017 16:18:52 asia/kolkata] PHP Notice:  Array to string conversion in C:\wamp\www\CaseManager\Functions\user.php on line 35
+[22-Jan-2017 16:18:52 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:18:52 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:18:52 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:18:52 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:18:52 asia/kolkata] PHP   4. FetchAccountNameById() C:\wamp\www\CaseManager\Functions\Cases.php:224
+[22-Jan-2017 16:18:52 asia/kolkata] PHP   5. FetchAccountInfo() C:\wamp\www\CaseManager\Functions\user.php:58
+[22-Jan-2017 16:18:52 asia/kolkata] PHP   6. PDOStatement->bindParam() C:\wamp\www\CaseManager\Functions\user.php:35
+[22-Jan-2017 16:19:13 asia/kolkata] PHP Notice:  Array to string conversion in C:\wamp\www\CaseManager\Functions\user.php on line 35
+[22-Jan-2017 16:19:13 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:19:13 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:19:13 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:19:13 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:19:13 asia/kolkata] PHP   4. FetchAccountNameById() C:\wamp\www\CaseManager\Functions\Cases.php:224
+[22-Jan-2017 16:19:13 asia/kolkata] PHP   5. FetchAccountInfo() C:\wamp\www\CaseManager\Functions\user.php:58
+[22-Jan-2017 16:19:13 asia/kolkata] PHP   6. PDOStatement->bindParam() C:\wamp\www\CaseManager\Functions\user.php:35
+[22-Jan-2017 16:19:14 asia/kolkata] PHP Notice:  Array to string conversion in C:\wamp\www\CaseManager\Functions\user.php on line 35
+[22-Jan-2017 16:19:14 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:19:14 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:19:14 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:19:14 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:19:14 asia/kolkata] PHP   4. FetchAccountNameById() C:\wamp\www\CaseManager\Functions\Cases.php:224
+[22-Jan-2017 16:19:14 asia/kolkata] PHP   5. FetchAccountInfo() C:\wamp\www\CaseManager\Functions\user.php:58
+[22-Jan-2017 16:19:14 asia/kolkata] PHP   6. PDOStatement->bindParam() C:\wamp\www\CaseManager\Functions\user.php:35
+[22-Jan-2017 16:19:53 asia/kolkata] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in C:\wamp\www\CaseManager\Functions\user.php on line 60
+[22-Jan-2017 16:19:59 asia/kolkata] PHP Notice:  Array to string conversion in C:\wamp\www\CaseManager\Functions\user.php on line 35
+[22-Jan-2017 16:19:59 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:19:59 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:19:59 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:19:59 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:19:59 asia/kolkata] PHP   4. FetchAccountNameById() C:\wamp\www\CaseManager\Functions\Cases.php:224
+[22-Jan-2017 16:19:59 asia/kolkata] PHP   5. FetchAccountInfo() C:\wamp\www\CaseManager\Functions\user.php:58
+[22-Jan-2017 16:19:59 asia/kolkata] PHP   6. PDOStatement->bindParam() C:\wamp\www\CaseManager\Functions\user.php:35
+[22-Jan-2017 16:21:39 asia/kolkata] PHP Notice:  Undefined index: uid in C:\wamp\www\CaseManager\Functions\Cases.php on line 224
+[22-Jan-2017 16:21:39 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:21:39 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:21:39 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:21:39 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:21:51 asia/kolkata] PHP Notice:  Undefined index: uid in C:\wamp\www\CaseManager\Functions\Cases.php on line 225
+[22-Jan-2017 16:21:51 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:21:51 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:21:51 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:21:51 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:35:44 asia/kolkata] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp\www\CaseManager\Functions\Cases.php on line 231
+[22-Jan-2017 16:35:44 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:35:44 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:35:44 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:35:44 asia/kolkata] PHP   3. GetLatestCasesById() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:35:44 asia/kolkata] PHP   4. PDOStatement->execute() C:\wamp\www\CaseManager\Functions\Cases.php:231
+[22-Jan-2017 16:35:45 asia/kolkata] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp\www\CaseManager\Functions\Cases.php on line 231
+[22-Jan-2017 16:35:45 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:35:45 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:35:45 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:35:45 asia/kolkata] PHP   3. GetLatestCasesById() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:35:45 asia/kolkata] PHP   4. PDOStatement->execute() C:\wamp\www\CaseManager\Functions\Cases.php:231
+[22-Jan-2017 16:42:35 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:42:35 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:42:35 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:42:35 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:42:35 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:42:35 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 16:42:35 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[22-Jan-2017 16:42:35 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:42:35 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:42:35 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:42:35 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:42:37 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:42:37 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:42:37 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:42:37 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:42:37 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:42:37 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 16:42:37 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 118
+[22-Jan-2017 16:42:37 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:42:37 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:42:37 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:42:37 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:43:36 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:43:36 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:43:36 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:43:36 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:43:36 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:43:36 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:117
+[22-Jan-2017 16:43:37 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:43:37 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:43:37 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:43:37 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:43:37 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:43:37 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:117
+[22-Jan-2017 16:44:01 asia/kolkata] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in C:\wamp\www\CaseManager\Functions\Cases.php on line 113
+[22-Jan-2017 16:44:03 asia/kolkata] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in C:\wamp\www\CaseManager\Functions\Cases.php on line 113
+[22-Jan-2017 16:44:07 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 113
+[22-Jan-2017 16:44:07 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:44:07 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:44:07 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:44:07 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:44:07 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 16:44:08 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 113
+[22-Jan-2017 16:44:08 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:44:08 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:44:08 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:44:08 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:44:08 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 16:44:33 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:44:33 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:44:33 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:44:33 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:44:33 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:44:33 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 16:44:34 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:44:34 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:44:34 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:44:34 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:44:34 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:44:34 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 16:45:16 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:45:16 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:45:16 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:45:16 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:45:16 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:45:16 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:118
+[22-Jan-2017 16:48:23 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:48:23 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:48:23 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:48:23 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:48:23 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:48:23 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:117
+[22-Jan-2017 16:50:08 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:50:08 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:50:08 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:50:08 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:50:08 asia/kolkata] PHP   3. FetchAssignedCase() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:50:08 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:246
+[22-Jan-2017 16:50:08 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:117
+[22-Jan-2017 16:50:28 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:50:28 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:50:28 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:50:28 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:50:28 asia/kolkata] PHP   3. FetchAssignedCase() C:\wamp\www\CaseManager\test.php:9
+[22-Jan-2017 16:50:28 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:246
+[22-Jan-2017 16:50:28 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:117
+[22-Jan-2017 16:52:17 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:52:17 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:52:17 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:52:17 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:52:17 asia/kolkata] PHP   3. FetchAssignedCase() C:\wamp\www\CaseManager\assigned-cases.php:31
+[22-Jan-2017 16:52:17 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:246
+[22-Jan-2017 16:52:17 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:117
+[22-Jan-2017 16:54:55 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:54:55 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:54:55 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:54:55 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:54:55 asia/kolkata] PHP   3. FetchAssignedCase() C:\wamp\www\CaseManager\assigned-cases.php:31
+[22-Jan-2017 16:54:55 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:246
+[22-Jan-2017 16:54:55 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:117
+[22-Jan-2017 16:55:42 asia/kolkata] PHP Notice:  Array to string conversion in C:\wamp\www\CaseManager\Functions\Cases.php on line 120
+[22-Jan-2017 16:55:42 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:55:42 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:55:42 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:55:42 asia/kolkata] PHP   3. FetchAssignedCase() C:\wamp\www\CaseManager\assigned-cases.php:31
+[22-Jan-2017 16:55:42 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:246
+[22-Jan-2017 16:55:42 asia/kolkata] PHP   5. PDOStatement->execute() C:\wamp\www\CaseManager\Functions\Cases.php:120
+[22-Jan-2017 16:55:42 asia/kolkata] PHP Notice:  Undefined offset: 0 in C:\wamp\www\CaseManager\Functions\Cases.php on line 225
+[22-Jan-2017 16:55:42 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:55:42 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:55:42 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:55:42 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\assigned-cases.php:49
+[22-Jan-2017 16:55:55 asia/kolkata] PHP Notice:  Undefined offset: 1 in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:55:55 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:55:55 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:55:55 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:55:55 asia/kolkata] PHP   3. FetchAssignedCase() C:\wamp\www\CaseManager\assigned-cases.php:31
+[22-Jan-2017 16:55:55 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:246
+[22-Jan-2017 16:55:55 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:117
+[22-Jan-2017 16:55:55 asia/kolkata] PHP Notice:  Undefined offset: 0 in C:\wamp\www\CaseManager\Functions\Cases.php on line 225
+[22-Jan-2017 16:55:55 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:55:55 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:55:55 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:55:55 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\assigned-cases.php:49
+[22-Jan-2017 16:55:56 asia/kolkata] PHP Notice:  Undefined offset: 1 in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:55:56 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:55:56 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:55:56 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:55:56 asia/kolkata] PHP   3. FetchAssignedCase() C:\wamp\www\CaseManager\assigned-cases.php:31
+[22-Jan-2017 16:55:56 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:246
+[22-Jan-2017 16:55:56 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:117
+[22-Jan-2017 16:55:56 asia/kolkata] PHP Notice:  Undefined offset: 0 in C:\wamp\www\CaseManager\Functions\Cases.php on line 225
+[22-Jan-2017 16:55:56 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:55:56 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:55:56 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:55:56 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\assigned-cases.php:49
+[22-Jan-2017 16:56:27 asia/kolkata] PHP Notice:  Undefined offset: 1 in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:56:27 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:56:27 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:56:27 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:56:27 asia/kolkata] PHP   3. FetchAssignedCase() C:\wamp\www\CaseManager\assigned-cases.php:31
+[22-Jan-2017 16:56:27 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:246
+[22-Jan-2017 16:56:27 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:117
+[22-Jan-2017 16:56:27 asia/kolkata] PHP Notice:  Undefined offset: 0 in C:\wamp\www\CaseManager\Functions\Cases.php on line 225
+[22-Jan-2017 16:56:27 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:56:27 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:56:27 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:56:27 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\assigned-cases.php:49
+[22-Jan-2017 16:56:42 asia/kolkata] PHP Notice:  Undefined offset: 0 in C:\wamp\www\CaseManager\Functions\Cases.php on line 225
+[22-Jan-2017 16:56:42 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:56:42 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:56:42 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:56:42 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\assigned-cases.php:49
+[22-Jan-2017 16:56:54 asia/kolkata] PHP Notice:  Array to string conversion in C:\wamp\www\CaseManager\Functions\Cases.php on line 120
+[22-Jan-2017 16:56:54 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:56:54 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:56:54 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:56:54 asia/kolkata] PHP   3. FetchAssignedCase() C:\wamp\www\CaseManager\assigned-cases.php:31
+[22-Jan-2017 16:56:54 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:246
+[22-Jan-2017 16:56:54 asia/kolkata] PHP   5. PDOStatement->execute() C:\wamp\www\CaseManager\Functions\Cases.php:120
+[22-Jan-2017 16:56:54 asia/kolkata] PHP Notice:  Undefined offset: 0 in C:\wamp\www\CaseManager\Functions\Cases.php on line 225
+[22-Jan-2017 16:56:54 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:56:54 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:56:54 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:56:54 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\assigned-cases.php:49
+[22-Jan-2017 16:56:58 asia/kolkata] PHP Notice:  Array to string conversion in C:\wamp\www\CaseManager\Functions\Cases.php on line 120
+[22-Jan-2017 16:56:58 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:56:58 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:56:58 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:56:58 asia/kolkata] PHP   3. FetchAssignedCase() C:\wamp\www\CaseManager\assigned-cases.php:31
+[22-Jan-2017 16:56:58 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:246
+[22-Jan-2017 16:56:58 asia/kolkata] PHP   5. PDOStatement->execute() C:\wamp\www\CaseManager\Functions\Cases.php:120
+[22-Jan-2017 16:56:58 asia/kolkata] PHP Notice:  Undefined offset: 0 in C:\wamp\www\CaseManager\Functions\Cases.php on line 225
+[22-Jan-2017 16:56:58 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:56:58 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:56:58 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:56:58 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\assigned-cases.php:49
+[22-Jan-2017 16:56:59 asia/kolkata] PHP Notice:  Array to string conversion in C:\wamp\www\CaseManager\Functions\Cases.php on line 120
+[22-Jan-2017 16:56:59 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:56:59 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:56:59 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:56:59 asia/kolkata] PHP   3. FetchAssignedCase() C:\wamp\www\CaseManager\assigned-cases.php:31
+[22-Jan-2017 16:56:59 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:246
+[22-Jan-2017 16:56:59 asia/kolkata] PHP   5. PDOStatement->execute() C:\wamp\www\CaseManager\Functions\Cases.php:120
+[22-Jan-2017 16:56:59 asia/kolkata] PHP Notice:  Undefined offset: 0 in C:\wamp\www\CaseManager\Functions\Cases.php on line 225
+[22-Jan-2017 16:56:59 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:56:59 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:56:59 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:56:59 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\assigned-cases.php:49
+[22-Jan-2017 16:57:05 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:57:05 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:57:05 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:57:05 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:57:05 asia/kolkata] PHP   3. FetchAssignedCase() C:\wamp\www\CaseManager\assigned-cases.php:31
+[22-Jan-2017 16:57:05 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:246
+[22-Jan-2017 16:57:05 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:117
+[22-Jan-2017 16:57:06 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:57:06 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:57:06 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:57:06 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:57:06 asia/kolkata] PHP   3. FetchAssignedCase() C:\wamp\www\CaseManager\assigned-cases.php:31
+[22-Jan-2017 16:57:06 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:246
+[22-Jan-2017 16:57:06 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:117
+[22-Jan-2017 16:57:14 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:57:14 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   3. IsCaseOwner() C:\wamp\www\CaseManager\view-case.php:4
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   4. GetCaseByID() C:\wamp\www\CaseManager\Functions\Cases.php:148
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   5. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:117
+[22-Jan-2017 16:57:14 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:57:14 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   3. GetCaseByID() C:\wamp\www\CaseManager\view-case.php:8
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:117
+[22-Jan-2017 16:57:14 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:57:14 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   3. GetCaseAnswers() C:\wamp\www\CaseManager\view-case.php:9
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:135
+[22-Jan-2017 16:57:14 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:57:14 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   3. GetCaseAttachments() C:\wamp\www\CaseManager\view-case.php:49
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   4. CaseID() C:\wamp\www\CaseManager\Functions\Cases.php:126
+[22-Jan-2017 16:57:14 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\Functions\Cases.php on line 112
+[22-Jan-2017 16:57:14 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 16:57:14 asia/kolkata] PHP   3. CaseID() C:\wamp\www\CaseManager\view-case.php:90
+[22-Jan-2017 18:23:51 asia/kolkata] PHP Notice:  Undefined offset: 0 in C:\wamp\www\CaseManager\Functions\Cases.php on line 226
+[22-Jan-2017 18:23:51 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 18:23:51 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 18:23:51 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 18:23:51 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\latest-cases.php:49
+[22-Jan-2017 18:59:36 asia/kolkata] PHP Notice:  Undefined index: title in C:\wamp\www\CaseManager\answer-case.php on line 9
+[22-Jan-2017 18:59:36 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 18:59:36 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 18:59:36 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 18:59:36 asia/kolkata] PHP Notice:  Undefined index: content in C:\wamp\www\CaseManager\answer-case.php on line 13
+[22-Jan-2017 18:59:36 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 18:59:36 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 18:59:36 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 18:59:36 asia/kolkata] PHP Notice:  Undefined index: cid in C:\wamp\www\CaseManager\answer-case.php on line 24
+[22-Jan-2017 18:59:36 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 18:59:36 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 18:59:36 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 19:01:17 asia/kolkata] PHP Notice:  Undefined variable: answer in C:\wamp\www\CaseManager\view-case.php on line 10
+[22-Jan-2017 19:01:17 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 19:01:17 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 19:01:17 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 19:01:18 asia/kolkata] PHP Notice:  Undefined variable: answer in C:\wamp\www\CaseManager\view-case.php on line 10
+[22-Jan-2017 19:01:18 asia/kolkata] PHP Stack trace:
+[22-Jan-2017 19:01:18 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Jan-2017 19:01:18 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[22-Jan-2017 19:01:58 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function IsCaseOwner() in C:\wamp\www\CaseManager\view-case.php:4
+Stack trace:
+#0 C:\wamp\www\CaseManager\index.php(64): require_once()
+#1 {main}
+  thrown in C:\wamp\www\CaseManager\view-case.php on line 4
+[22-Jan-2017 19:02:15 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function IsCaseOwner() in C:\wamp\www\CaseManager\view-case.php:4
+Stack trace:
+#0 C:\wamp\www\CaseManager\index.php(64): require_once()
+#1 {main}
+  thrown in C:\wamp\www\CaseManager\view-case.php on line 4
+[07-Feb-2017 23:19:09 asia/kolkata] PHP Notice:  Array to string conversion in C:\wamp\www\CaseManager\Functions\Cases.php on line 194
+[07-Feb-2017 23:19:09 asia/kolkata] PHP Stack trace:
+[07-Feb-2017 23:19:09 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[07-Feb-2017 23:19:09 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:64
+[07-Feb-2017 23:19:09 asia/kolkata] PHP   3. SaveAnswerAndSetState() C:\wamp\www\CaseManager\answer-case.php:53
+[07-Feb-2017 23:19:09 asia/kolkata] PHP   4. SetState() C:\wamp\www\CaseManager\Functions\Cases.php:185
+[21-Apr-2017 00:19:03 asia/kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\wamp\www\CaseManager\Functions\Database.php on line 23
+[21-Apr-2017 00:19:04 asia/kolkata] PHP Stack trace:
+[21-Apr-2017 00:19:04 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[21-Apr-2017 00:19:04 asia/kolkata] PHP   2. include_once() C:\wamp\www\CaseManager\register.php:1
+[21-Apr-2017 00:19:04 asia/kolkata] PHP   3. HasRequiredDatabaseConnections() C:\wamp\www\CaseManager\Functions\Import.php:17
+[21-Apr-2017 00:19:04 asia/kolkata] PHP   4. mysqli->__construct() C:\wamp\www\CaseManager\Functions\Database.php:23
+[21-Apr-2017 00:19:04 asia/kolkata] PHP Warning:  mysqli::select_db(): Couldn't fetch mysqli in C:\wamp\www\CaseManager\Functions\Database.php on line 24
+[21-Apr-2017 00:19:04 asia/kolkata] PHP Stack trace:
+[21-Apr-2017 00:19:04 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[21-Apr-2017 00:19:04 asia/kolkata] PHP   2. include_once() C:\wamp\www\CaseManager\register.php:1
+[21-Apr-2017 00:19:04 asia/kolkata] PHP   3. HasRequiredDatabaseConnections() C:\wamp\www\CaseManager\Functions\Import.php:17
+[21-Apr-2017 00:19:04 asia/kolkata] PHP   4. mysqli->select_db() C:\wamp\www\CaseManager\Functions\Database.php:24
+[21-Apr-2017 00:19:06 asia/kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\wamp\www\CaseManager\Functions\Database.php on line 23
+[21-Apr-2017 00:19:06 asia/kolkata] PHP Stack trace:
+[21-Apr-2017 00:19:06 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[21-Apr-2017 00:19:06 asia/kolkata] PHP   2. include_once() C:\wamp\www\CaseManager\register.php:1
+[21-Apr-2017 00:19:06 asia/kolkata] PHP   3. HasRequiredDatabaseConnections() C:\wamp\www\CaseManager\Functions\Import.php:17
+[21-Apr-2017 00:19:06 asia/kolkata] PHP   4. mysqli->__construct() C:\wamp\www\CaseManager\Functions\Database.php:23
+[21-Apr-2017 00:19:06 asia/kolkata] PHP Warning:  mysqli::select_db(): Couldn't fetch mysqli in C:\wamp\www\CaseManager\Functions\Database.php on line 24
+[21-Apr-2017 00:19:06 asia/kolkata] PHP Stack trace:
+[21-Apr-2017 00:19:06 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[21-Apr-2017 00:19:06 asia/kolkata] PHP   2. include_once() C:\wamp\www\CaseManager\register.php:1
+[21-Apr-2017 00:19:06 asia/kolkata] PHP   3. HasRequiredDatabaseConnections() C:\wamp\www\CaseManager\Functions\Import.php:17
+[21-Apr-2017 00:19:06 asia/kolkata] PHP   4. mysqli->select_db() C:\wamp\www\CaseManager\Functions\Database.php:24
+[21-Apr-2017 00:35:47 asia/kolkata] PHP Notice:  Undefined variable: permissions in C:\wamp\www\CaseManager\latest-cases.php on line 1
+[21-Apr-2017 00:35:47 asia/kolkata] PHP Stack trace:
+[21-Apr-2017 00:35:47 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Apr-2017 00:35:47 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:66
+[21-Apr-2017 00:35:47 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to a member function setConditions() on null in C:\wamp\www\CaseManager\latest-cases.php:1
+Stack trace:
+#0 C:\wamp\www\CaseManager\index.php(66): require_once()
+#1 {main}
+  thrown in C:\wamp\www\CaseManager\latest-cases.php on line 1
+[21-Apr-2017 00:38:08 asia/kolkata] PHP Notice:  Undefined variable: permissions in C:\wamp\www\CaseManager\latest-cases.php on line 2
+[21-Apr-2017 00:38:08 asia/kolkata] PHP Stack trace:
+[21-Apr-2017 00:38:08 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[21-Apr-2017 00:38:08 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:66
+[21-Apr-2017 00:38:08 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to a member function setConditions() on null in C:\wamp\www\CaseManager\latest-cases.php:2
+Stack trace:
+#0 C:\wamp\www\CaseManager\index.php(66): require_once()
+#1 {main}
+  thrown in C:\wamp\www\CaseManager\latest-cases.php on line 2
+[21-Apr-2017 00:39:11 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function GetLoggedAccountID() in C:\wamp\www\CaseManager\Functions\String.php:105
+Stack trace:
+#0 C:\wamp\www\CaseManager\Functions\Import.php(12): include_once()
+#1 C:\wamp\www\CaseManager\index.php(3): require_once('C:\\wamp\\www\\Cas...')
+#2 {main}
+  thrown in C:\wamp\www\CaseManager\Functions\String.php on line 105
+[21-Apr-2017 00:39:12 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function GetLoggedAccountID() in C:\wamp\www\CaseManager\Functions\String.php:105
+Stack trace:
+#0 C:\wamp\www\CaseManager\Functions\Import.php(12): include_once()
+#1 C:\wamp\www\CaseManager\index.php(3): require_once('C:\\wamp\\www\\Cas...')
+#2 {main}
+  thrown in C:\wamp\www\CaseManager\Functions\String.php on line 105
+[21-Apr-2017 00:39:12 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function GetLoggedAccountID() in C:\wamp\www\CaseManager\Functions\String.php:105
+Stack trace:
+#0 C:\wamp\www\CaseManager\Functions\Import.php(12): include_once()
+#1 C:\wamp\www\CaseManager\index.php(3): require_once('C:\\wamp\\www\\Cas...')
+#2 {main}
+  thrown in C:\wamp\www\CaseManager\Functions\String.php on line 105
+[21-Apr-2017 00:39:12 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function GetLoggedAccountID() in C:\wamp\www\CaseManager\Functions\String.php:105
+Stack trace:
+#0 C:\wamp\www\CaseManager\Functions\Import.php(12): include_once()
+#1 C:\wamp\www\CaseManager\index.php(3): require_once('C:\\wamp\\www\\Cas...')
+#2 {main}
+  thrown in C:\wamp\www\CaseManager\Functions\String.php on line 105
+[21-Apr-2017 00:39:13 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function GetLoggedAccountID() in C:\wamp\www\CaseManager\Functions\String.php:105
+Stack trace:
+#0 C:\wamp\www\CaseManager\Functions\Import.php(12): include_once()
+#1 C:\wamp\www\CaseManager\index.php(3): require_once('C:\\wamp\\www\\Cas...')
+#2 {main}
+  thrown in C:\wamp\www\CaseManager\Functions\String.php on line 105
+[21-Apr-2017 00:39:13 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function GetLoggedAccountID() in C:\wamp\www\CaseManager\Functions\String.php:105
+Stack trace:
+#0 C:\wamp\www\CaseManager\Functions\Import.php(12): include_once()
+#1 C:\wamp\www\CaseManager\index.php(3): require_once('C:\\wamp\\www\\Cas...')
+#2 {main}
+  thrown in C:\wamp\www\CaseManager\Functions\String.php on line 105
+[21-Apr-2017 00:39:25 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function GetLoggedAccountID() in C:\wamp\www\CaseManager\Functions\String.php:105
+Stack trace:
+#0 C:\wamp\www\CaseManager\Functions\Import.php(12): include_once()
+#1 C:\wamp\www\CaseManager\index.php(3): require_once('C:\\wamp\\www\\Cas...')
+#2 {main}
+  thrown in C:\wamp\www\CaseManager\Functions\String.php on line 105
+[21-Apr-2017 00:39:25 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function GetLoggedAccountID() in C:\wamp\www\CaseManager\Functions\String.php:105
+Stack trace:
+#0 C:\wamp\www\CaseManager\Functions\Import.php(12): include_once()
+#1 C:\wamp\www\CaseManager\index.php(3): require_once('C:\\wamp\\www\\Cas...')
+#2 {main}
+  thrown in C:\wamp\www\CaseManager\Functions\String.php on line 105
+[21-Apr-2017 00:39:26 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function GetLoggedAccountID() in C:\wamp\www\CaseManager\Functions\String.php:105
+Stack trace:
+#0 C:\wamp\www\CaseManager\Functions\Import.php(12): include_once()
+#1 C:\wamp\www\CaseManager\index.php(3): require_once('C:\\wamp\\www\\Cas...')
+#2 {main}
+  thrown in C:\wamp\www\CaseManager\Functions\String.php on line 105
+[21-Apr-2017 00:39:26 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function GetLoggedAccountID() in C:\wamp\www\CaseManager\Functions\String.php:105
+Stack trace:
+#0 C:\wamp\www\CaseManager\Functions\Import.php(12): include_once()
+#1 C:\wamp\www\CaseManager\index.php(3): require_once('C:\\wamp\\www\\Cas...')
+#2 {main}
+  thrown in C:\wamp\www\CaseManager\Functions\String.php on line 105
+[21-Apr-2017 00:39:26 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function GetLoggedAccountID() in C:\wamp\www\CaseManager\Functions\String.php:105
+Stack trace:
+#0 C:\wamp\www\CaseManager\Functions\Import.php(12): include_once()
+#1 C:\wamp\www\CaseManager\index.php(3): require_once('C:\\wamp\\www\\Cas...')
+#2 {main}
+  thrown in C:\wamp\www\CaseManager\Functions\String.php on line 105
+[21-Apr-2017 00:39:36 asia/kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function GetLoggedAccountID() in C:\wamp\www\CaseManager\Functions\Permission.php:78
+Stack trace:
+#0 C:\wamp\www\CaseManager\Functions\Import.php(12): include_once()
+#1 C:\wamp\www\CaseManager\index.php(3): require_once('C:\\wamp\\www\\Cas...')
+#2 {main}
+  thrown in C:\wamp\www\CaseManager\Functions\Permission.php on line 78
+[22-Apr-2017 08:51:05 asia/kolkata] PHP Notice:  Undefined variable: staff in C:\wamp\www\CaseManager\latest-cases.php on line 41
+[22-Apr-2017 08:51:05 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 08:51:05 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Apr-2017 08:51:05 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:66
+[22-Apr-2017 13:27:17 asia/kolkata] PHP Fatal error:  Cannot use [] for reading in C:\wamp\www\CaseManager\latest-cases.php on line 46
+[22-Apr-2017 13:27:17 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 13:27:17 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Apr-2017 14:02:34 asia/kolkata] PHP Notice:  Array to string conversion in C:\wamp\www\CaseManager\Functions\Cases.php on line 232
+[22-Apr-2017 14:02:34 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:02:34 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Apr-2017 14:02:34 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:66
+[22-Apr-2017 14:02:34 asia/kolkata] PHP   3. caseAssignedTo() C:\wamp\www\CaseManager\view-case.php:90
+[22-Apr-2017 14:02:34 asia/kolkata] PHP   4. PDOStatement->execute() C:\wamp\www\CaseManager\Functions\Cases.php:232
+[22-Apr-2017 14:07:32 asia/kolkata] PHP Notice:  Undefined index: id in C:\wamp\www\CaseManager\view-case.php on line 90
+[22-Apr-2017 14:07:32 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:07:32 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[22-Apr-2017 14:07:32 asia/kolkata] PHP   2. require_once() C:\wamp\www\CaseManager\index.php:66
+[22-Apr-2017 14:21:34 asia/kolkata] PHP Notice:  Undefined index: pwd in C:\wamp\www\CaseManager\register.php on line 219
+[22-Apr-2017 14:21:34 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:21:34 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 14:21:34 asia/kolkata] PHP Notice:  Undefined index: role in C:\wamp\www\CaseManager\register.php on line 221
+[22-Apr-2017 14:21:34 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:21:34 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 14:21:34 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\register.php on line 234
+[22-Apr-2017 14:21:34 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:21:34 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 14:21:34 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\register.php on line 236
+[22-Apr-2017 14:21:34 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:21:34 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 14:21:34 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\register.php on line 237
+[22-Apr-2017 14:21:34 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:21:34 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 14:21:55 asia/kolkata] PHP Notice:  Undefined index: pwd in C:\wamp\www\CaseManager\register.php on line 219
+[22-Apr-2017 14:21:55 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:21:55 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 14:21:55 asia/kolkata] PHP Notice:  Undefined index: role in C:\wamp\www\CaseManager\register.php on line 221
+[22-Apr-2017 14:21:55 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:21:55 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 14:21:55 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\register.php on line 234
+[22-Apr-2017 14:21:55 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:21:55 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 14:21:55 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\register.php on line 236
+[22-Apr-2017 14:21:55 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:21:55 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 14:21:55 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\register.php on line 237
+[22-Apr-2017 14:21:55 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:21:55 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 14:22:21 asia/kolkata] PHP Notice:  Undefined index: pwd in C:\wamp\www\CaseManager\register.php on line 219
+[22-Apr-2017 14:22:21 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:22:21 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 14:22:21 asia/kolkata] PHP Notice:  Undefined index: role in C:\wamp\www\CaseManager\register.php on line 221
+[22-Apr-2017 14:22:21 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:22:21 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 14:22:21 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\register.php on line 234
+[22-Apr-2017 14:22:21 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:22:21 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 14:22:21 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\register.php on line 236
+[22-Apr-2017 14:22:21 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:22:21 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 14:22:21 asia/kolkata] PHP Notice:  Only variables should be passed by reference in C:\wamp\www\CaseManager\register.php on line 237
+[22-Apr-2017 14:22:21 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 14:22:21 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\register.php:0
+[22-Apr-2017 15:14:08 asia/kolkata] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[22-Apr-2017 15:14:08 asia/kolkata] PHP Fatal error:  Unknown: Failed opening required 'C:/wamp/www/CaseManager/index.php' (include_path='.;C:\php\pear') in Unknown on line 0
+[22-Apr-2017 15:14:42 asia/kolkata] PHP Notice:  Undefined index: pc in C:\wamp\www\CaseManager\index.php on line 60
+[22-Apr-2017 15:14:42 asia/kolkata] PHP Stack trace:
+[22-Apr-2017 15:14:42 asia/kolkata] PHP   1. {main}() C:\wamp\www\CaseManager\index.php:0
+[02-Feb-2018 15:14:43 asia/kolkata] PHP Fatal error:  Cannot redeclare GetDatabaseConnection() (previously declared in C:\wamp\www\issuetracking\Functions\Database.php:6) in C:\wamp\www\issuetracking\Functions\Databaseol.php on line 17
+[02-Feb-2018 15:14:43 asia/kolkata] PHP Stack trace:
+[02-Feb-2018 15:14:43 asia/kolkata] PHP   1. {main}() C:\wamp\www\issuetracking\index.php:0
+[02-Feb-2018 15:14:43 asia/kolkata] PHP   2. require_once() C:\wamp\www\issuetracking\index.php:3
+[12-Feb-2018 10:21:46 asia/kolkata] PHP Notice:  Use of undefined constant Y - assumed 'Y' in E:\XAMPP\htdocs\issuetracking\login.php on line 90
+[12-Feb-2018 10:43:41 asia/kolkata] PHP Notice:  Undefined index: username in E:\XAMPP\htdocs\issuetracking\main.php on line 4
+[12-Feb-2018 10:44:35 asia/kolkata] PHP Notice:  A session had already been started - ignoring session_start() in E:\XAMPP\htdocs\issuetracking\main.php on line 4
+[12-Feb-2018 10:44:35 asia/kolkata] PHP Notice:  Undefined index: username in E:\XAMPP\htdocs\issuetracking\main.php on line 6
+[12-Feb-2018 10:48:52 asia/kolkata] PHP Notice:  Undefined index: username in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 5
+[12-Feb-2018 10:50:13 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 5
+[12-Feb-2018 10:51:26 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 5
+[12-Feb-2018 10:51:38 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 5
+[12-Feb-2018 10:51:43 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 5
+[12-Feb-2018 10:52:07 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 5
+[12-Feb-2018 10:52:24 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 5
+[12-Feb-2018 10:54:35 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 5
+[12-Feb-2018 10:54:39 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 5
+[12-Feb-2018 10:54:58 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 5
+[12-Feb-2018 10:55:03 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 5
+[12-Feb-2018 10:55:06 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 5
+[12-Feb-2018 11:26:28 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 5
+[12-Feb-2018 11:26:36 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 5
+[12-Feb-2018 11:29:19 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 7
+[12-Feb-2018 11:29:44 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 7
+[12-Feb-2018 11:29:48 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\Functions\Import.php on line 7
+[15-Feb-2018 11:11:31 asia/kolkata] PHP Parse error:  syntax error, unexpected ':' in E:\XAMPP\htdocs\issuetracking\login.php on line 160
+[15-Feb-2018 13:37:45 asia/kolkata] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in E:\XAMPP\htdocs\issuetracking\create-case.php on line 35
+[15-Feb-2018 13:40:24 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\index.php on line 56
+[15-Feb-2018 13:54:18 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\index.php on line 56
+[15-Feb-2018 13:54:18 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 157 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:54:18 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:54:18 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:54:18 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:54:18 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 161 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:54:18 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:54:18 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:54:18 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:54:23 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 157 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:54:23 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:54:23 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:54:23 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:54:23 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 161 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:54:23 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:54:23 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:54:23 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:54:27 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 157 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:54:27 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:54:27 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:54:27 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:54:27 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 161 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:54:27 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:54:27 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:54:27 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:54:28 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 157 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:54:28 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:54:28 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:54:28 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:54:28 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 161 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:54:28 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:54:28 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:54:28 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:21 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 157 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:21 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 161 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:23 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 157 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:23 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:23 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:23 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:23 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 161 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:23 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:23 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:23 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 157 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 161 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 157 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 161 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:24 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:39 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 157 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:39 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:39 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:39 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:39 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 161 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:39 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:39 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:39 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:46 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 157 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:46 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:46 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:46 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:46 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 161 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:46 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:46 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:46 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:48 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 157 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:48 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:48 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:48 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:48 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 161 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:48 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:48 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:48 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:53 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 157 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:53 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:53 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:53 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:53 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 161 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:53 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:53 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:53 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:57 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 157 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:57 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:57 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:57 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:57 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 161 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:57 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:57 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:57 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:58 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 157 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:58 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:58 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:58 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:55:58 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 161 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:55:58 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:55:58 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:55:58 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:56:10 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:56:10 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:56:10 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:56:10 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:56:10 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:56:10 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:56:10 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:56:10 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:56:33 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:56:33 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:56:33 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:56:33 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 13:56:33 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 13:56:33 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 13:56:33 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 13:56:33 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 18:16:57 asia/kolkata] PHP Notice:  Undefined index: name in E:\XAMPP\htdocs\issuetracking\index.php on line 56
+[15-Feb-2018 18:16:57 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 18:16:57 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 18:16:57 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 18:16:57 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 18:16:57 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 18:16:57 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 18:16:57 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 18:16:57 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 18:17:16 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 18:17:16 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 18:17:16 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 18:17:16 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 18:17:16 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 18:17:16 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 18:17:16 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 18:17:16 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 18:17:36 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 18:17:36 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 18:17:36 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 18:17:36 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 18:17:36 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 18:17:36 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 18:17:36 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 18:17:36 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 20:43:25 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 20:43:25 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 20:43:25 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 20:43:25 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 20:43:25 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 20:43:25 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 20:43:25 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 20:43:25 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 20:43:30 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 20:43:30 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 20:43:30 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 20:43:30 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 20:43:30 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 20:43:30 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 20:43:30 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 20:43:30 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 20:43:35 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 20:43:35 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 20:43:35 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 20:43:35 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 20:43:35 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 20:43:35 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 20:43:35 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 20:43:35 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 20:43:52 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 20:43:52 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 20:43:52 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 20:43:52 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 20:43:52 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 20:43:52 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 20:43:52 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 20:43:52 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 20:44:05 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 20:44:05 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 20:44:05 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 20:44:05 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 20:44:05 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 20:44:05 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 20:44:05 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 20:44:05 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 20:45:20 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 20:45:20 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 20:45:20 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 20:45:20 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 20:45:21 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 20:45:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 20:45:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 20:45:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 20:45:33 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 20:45:33 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 20:45:33 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 20:45:33 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[15-Feb-2018 20:45:33 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[15-Feb-2018 20:45:33 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[15-Feb-2018 20:45:33 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[15-Feb-2018 20:45:33 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[16-Feb-2018 10:02:21 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[16-Feb-2018 10:02:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[16-Feb-2018 10:02:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[16-Feb-2018 10:02:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[16-Feb-2018 10:02:21 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[16-Feb-2018 10:02:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[16-Feb-2018 10:02:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[16-Feb-2018 10:02:21 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[16-Feb-2018 10:03:51 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[16-Feb-2018 10:03:51 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[16-Feb-2018 10:03:51 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[16-Feb-2018 10:03:51 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[16-Feb-2018 10:03:51 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[16-Feb-2018 10:03:51 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[16-Feb-2018 10:03:51 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[16-Feb-2018 10:03:51 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[16-Feb-2018 10:05:30 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[16-Feb-2018 10:05:30 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[16-Feb-2018 10:05:30 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[16-Feb-2018 10:05:30 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[16-Feb-2018 10:05:30 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[16-Feb-2018 10:05:30 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[16-Feb-2018 10:05:30 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[16-Feb-2018 10:05:30 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[16-Feb-2018 10:06:27 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 159 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[16-Feb-2018 10:06:27 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[16-Feb-2018 10:06:27 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[16-Feb-2018 10:06:27 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
+[16-Feb-2018 10:06:27 asia/kolkata] PHP Warning:  Missing argument 1 for GetRole(), called in E:\XAMPP\htdocs\issuetracking\login.php on line 163 and defined in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 92
+[16-Feb-2018 10:06:27 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 94
+[16-Feb-2018 10:06:27 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 96
+[16-Feb-2018 10:06:27 asia/kolkata] PHP Notice:  Undefined variable: pv in E:\XAMPP\htdocs\issuetracking\Functions\user.php on line 98
